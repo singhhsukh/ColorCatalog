@@ -4,9 +4,10 @@
     "slug": "ColorCatalog",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "privacy": "public",
+    "icon": "./assets/cc-icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/cc-splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +18,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sukhwins.colorcatalognit"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+      "package": "com.sukhwins.colorcatalognit"
     },
     "web": {
       "favicon": "./assets/favicon.png"
